@@ -1,0 +1,12 @@
+// without rxjs-compat
+import { Observable } from 'rxjs/Observer';
+import { Observer } from 'rxjs/Observer';
+import { Subscription  } from 'rxjs/Subscription';
+import 'rxjs/Rx';
+
+
+
+// in rxjs/compat
+
+import { Observable, Observer,Subscription } from 'rxjs';
+import {map} from 'rxjs/Operators'
